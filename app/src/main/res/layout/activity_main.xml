@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,13 +8,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
+
+
+
+
+
+
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="170dp"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp">
 
@@ -58,7 +67,7 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="60"
+                android:layout_height="60dp"
                 android:text="login"
                 android:id="@+id/loginButton"
                 android:textSize="18sp"
@@ -70,8 +79,7 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:padding="8dp"
-                android:hint="SignUp"
-             />
+                android:hint="SignUp"/>
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
